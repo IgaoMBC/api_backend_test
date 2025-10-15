@@ -1,0 +1,6 @@
+[
+  "pact_project/pact_project/pact_project/tests/test_consumer.py::test_get_all_products",
+  "tests/test_api_posts.py::test_buscar_post_existente",
+  "tests/test_api_posts.py::test_buscar_post_inexistente",
+  "tests/test_api_posts.py::test_criar_novo_post"
+]
