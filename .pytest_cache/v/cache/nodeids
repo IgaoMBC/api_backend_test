@@ -1,4 +1,6 @@
 [
+  "Pytest_API_Framework/test_posts.py::test_get_post_by_id_and_validate_schema",
+  "Pytest_API_Framework/test_posts.py::test_get_post_inexistente",
   "pact_project/pact_project/pact_project/tests/test_consumer.py::test_get_all_products",
   "tests/test_api_posts.py::test_buscar_post_existente",
   "tests/test_api_posts.py::test_buscar_post_inexistente",
