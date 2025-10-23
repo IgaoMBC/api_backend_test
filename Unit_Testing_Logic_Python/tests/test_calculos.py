@@ -1,6 +1,11 @@
 import pytest
 from app.calculos import calcular_frete
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from app.calculos import calcular_frete
+
 # Teste 1: Caminho feliz (Happy Path)
 def test_calcular_frete_para_10kg():
     # Esperado: (10 * 1.50) + 5.00 = 20.00
